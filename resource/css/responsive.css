@@ -1,0 +1,64 @@
+/*==================================================
+            Theme Responsive Design
+===================================================*/
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media (max-width:767px){
+    /*------ Header Navigation -------*/
+    .header-area{
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .header-area ul.navbar-nav li{
+        border-radius: 0px;
+    }
+    .header-area ul.navbar-nav li:hover, .header-area ul.navbar-nav li.current{
+        border-radius: 0px;
+    }
+    #myNav{
+        background-color: #555;
+
+    }
+    .header-area ul.navbar-nav li{
+        padding: 10px 35px;
+        margin: 0;
+        transition: all 0.2s;
+    }
+    .header-area ul.navbar-nav li a{
+        color: #fff;
+    }
+    /*--- Mobile Navigation -------*/
+    .navbar-toggler i{
+        display: inline-block;
+        background-color: #f1c40f;
+        padding: 10px 15px;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    /*--- Hero Section -------*/
+    .hero-content h1{
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: -3px;
+    }
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    /*--- Service Section -------*/
+    .service-box-1{
+        padding-right: 15px;
+    }
+    .service-box-2{
+        padding-left: 15px;
+    }
+    /*--- Burger Section -------*/
+    .burger-desc-1, .burger-desc-2, .burger-desc-3{
+        margin-bottom: 15px;
+    }
+    /*--- Gallery Section -------*/
+    .padding-null {
+        padding: 3px 15px;
+    }
+}
